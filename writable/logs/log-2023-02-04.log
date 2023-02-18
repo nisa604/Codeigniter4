@@ -1,0 +1,11 @@
+CRITICAL - 2023-02-04 14:04:39 --> Cannot use object of type stdClass as array
+in APPPATH\Views\v_display_Mahasiswa.php on line 29.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_display_Mahasiswa', [], true)
+ 4 APPPATH\Controllers\c_Mahasiswa.php(19): view('v_display_Mahasiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
